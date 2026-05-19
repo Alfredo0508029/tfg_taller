@@ -1,0 +1,59 @@
+name: tfg_taller
+description: "AutoCare - Aplicación de mantenimiento de vehículos por kilometraje - TFG DAM"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Base de datos remota (Supabase)
+  supabase_flutter: ^2.9.0
+
+  # Gestión de estado
+  flutter_riverpod: ^2.6.1
+
+  # Navegación declarativa
+  go_router: ^15.1.2
+
+  # Persistencia de ajustes (tema, idioma)
+  shared_preferences: ^2.5.3
+
+  # Gráficas para estadísticas
+  fl_chart: ^0.70.2
+
+  # Internacionalización
+  intl: ^0.20.2
+
+  # Selección de imágenes desde la galería del dispositivo
+  image_picker: ^1.1.2
+
+  # Notificaciones locales (recordatorios de mantenimiento)
+  flutter_local_notifications: ^18.0.1
+
+  # Zonas horarias para notificaciones programadas
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  # Localización
+  # Los archivos .arb están en lib/l10n/

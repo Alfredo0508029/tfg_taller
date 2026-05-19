@@ -1,0 +1,23 @@
+﻿Analyzing tfg_taller...                                         
+
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\pantallas\ajustes\ajustes_pantalla.dart:63:13 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\pantallas\ajustes\ajustes_pantalla.dart:64:13 - deprecated_member_use
+   info - 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\pantallas\ajustes\ajustes_pantalla.dart:74:13 - deprecated_member_use
+   info - 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre - lib\presentation\pantallas\ajustes\ajustes_pantalla.dart:75:13 - deprecated_member_use
+  error - The getter 'id' isn't defined for the type 'Vehiculo' - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:65:47 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'Vehiculo' - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:72:47 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'Vehiculo' - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:79:47 - undefined_getter
+  error - The getter 'id' isn't defined for the type 'Vehiculo' - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:86:47 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:165:17 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:166:17 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:182:32 - deprecated_member_use
+   info - 'green' is deprecated and shouldn't be used. Use (*.g * 255.0).round() & 0xff - lib\presentation\pantallas\dashboard\dashboard_pantalla.dart:193:47 - deprecated_member_use
+  error - The getter 'id' isn't defined for the type 'Vehiculo' - lib\presentation\pantallas\estadisticas\estadisticas_pantalla.dart:33:41 - undefined_getter
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\presentation\pantallas\mantenimiento\registrar_mantenimiento_pantalla.dart:147:23 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\presentation\pantallas\mantenimiento\registrar_mantenimiento_pantalla.dart:197:27 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\presentation\pantallas\mantenimiento\registrar_mantenimiento_pantalla.dart:199:27 - curly_braces_in_flow_control_structures
+  error - The getter 'id' isn't defined for the type 'Vehiculo' - lib\presentation\pantallas\vehiculos\lista_vehiculos_pantalla.dart:46:54 - undefined_getter
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\widgets\indicador_estado_componente.dart:42:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\presentation\widgets\indicador_estado_componente.dart:44:41 - deprecated_member_use
+  error - The method 'aMapa' isn't defined for the type 'Vehiculo' - test\modelos_test.dart:72:29 - undefined_method
+
