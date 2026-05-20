@@ -63,3 +63,6 @@ El proyecto viene preparado de fábrica con el paquete `flutter_launcher_icons` 
 Esto redimensionará y configurará automáticamente el icono para las compilaciones nativas de Android, Windows e iOS.
 
 ---
+
+[Documentacion Supabase CronJob.pdf](https://github.com/user-attachments/files/28025677/Documentacion.Supabase.CronJob.pdf)
+
