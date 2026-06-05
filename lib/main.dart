@@ -16,7 +16,7 @@ Future<void> main() async {
   // Inicialización de Supabase con URL y clave pública del proyecto
   await Supabase.initialize(
     url: 'https://gazskydmqbtpzmudrnos.supabase.co',
-    anonKey: 'sb_publishable_CKJZ-FwYmck8BjVYCJFmew_s1nfnP-d',
+    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdhenNreWRtcWJ0cHptdWRybm9zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQzNzAzNDIsImV4cCI6MjA4OTk0NjM0Mn0.5pu5aLcOzQfrMzxbvW7CiWKndxL9qolgokYVprKBkdU'',
   );
 
   // Inicializamos el servicio de notificaciones locales y programamos el
